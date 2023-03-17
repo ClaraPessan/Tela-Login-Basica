@@ -1,0 +1,33 @@
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <title>Tela de login</title>
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/componentes/formulario/form.css">
+        <link rel="stylesheet" href="css/componentes/centralizar/centro.css">
+        <link rel="stylesheet" href="css/componentes/caixa/caixa.css">
+        <link rel="stylesheet" href="css/componentes/botao/botao.css">
+        <link rel="stylesheet" href="css/componentes/alertas/alert.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <main class="centro">
+            <h1 class="titulo">login</h1>
+            <section class="caixa">
+                <form class="formulario">
+                    <input type="text" id="username" placeholder="usuário: " required/>
+                    <div class="campo-senha">
+                        <input type="password" id="password" placeholder="senha: " required/>
+                        <span id="olho-senha" class="olho-senha" onclick="mostrarSenha()"></span>
+                    </div>
+                    <button type="submit" class="botao">entrar</button>
+                </form>        
+            </section>
+        </main>
+    </body>
+    <script src="js/script.js"></script>
+</html>

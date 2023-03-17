@@ -1,0 +1,6 @@
+.caixa {
+    width: 300px;
+    display: flex;
+    background-color: #517979;
+    border-radius: 20px;
+}

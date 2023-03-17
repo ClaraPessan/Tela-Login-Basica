@@ -1,0 +1,14 @@
+.alert {
+    font-size: 14px;
+    padding: 16px;
+    text-align: center;
+    color: #ffffff; 
+}
+
+.alert-erro {
+    background-color: #6d2e34; 
+}
+
+.alert-correto {
+    background-color: #2e6d3c; 
+}

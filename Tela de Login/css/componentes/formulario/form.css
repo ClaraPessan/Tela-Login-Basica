@@ -1,0 +1,38 @@
+.formulario {
+    display: flex;
+    flex-direction: column;
+    margin: 50px 30px;
+    gap: 30px;
+    width: 100%;
+}
+
+.formulario input {
+    border: none;
+    background-color: transparent;
+    border-bottom: 1px solid #1c4a4a;
+    outline: none;
+    width: 100%;
+}
+
+input::placeholder {
+    font-size: 15px;
+    color: #0E3232;
+    text-transform: uppercase;
+}
+
+.campo-senha {
+    display: flex;
+    justify-content: space-between;
+}
+
+.olho-senha {
+    width: 20px;
+    background-image: url('../../../assets/icons/olho-fechado.svg');
+    background-size: cover;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+#olho-senha.mostrar {
+    background-image: url('../../../assets/icons/olho-aberto.svg');
+}

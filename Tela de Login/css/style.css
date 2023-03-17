@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    margin: 0;
+}
+
+body {
+    background-color: #ACC3C3;
+}
+
+.titulo {
+    color: #2F4545;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+}
